@@ -1,28 +1,26 @@
-.App {
+.smurf-form-container {
+  max-width: 400px;
+}
+
+.smurf-card {
+  border: 1px solid black;
+  width: 150px;
   text-align: center;
+  padding: 25px 25px 45px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.smurf-form {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.smurf-form-label {
+  display: flex;
+  flex-direction: column;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.error {
+  color: darkred;
+  font-size: 0.7rem;
 }
